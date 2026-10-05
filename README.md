@@ -1,53 +1,75 @@
-# Programación Orientada a Objetos con Python 🐍
+# Python OOP — Semester 2 Coursework
 
-Este repositorio contiene una colección de prácticas y ejercicios desarrollados para dominar los fundamentos de **Python** y los pilares de la **Programación Orientada a Objetos (POO)**.
+Coursework from **2nd semester** of **Software Development Engineering** (Ingeniería en Desarrollo de Software) at Universidad Tecmilenio.
 
-## 🚀 Contenido del Repositorio
+These scripts are the programming assignments I delivered for the **Object-Oriented Programming** course. They are small, self-contained demos — not a production application.
 
-El proyecto incluye diversos scripts que cubren los siguientes temas:
+**Author:** José Alberto Rocha Munguía
 
-* **Fundamentos de Lógica:** Control de flujo y ciclos (`while_loop_demo.py`, `conditionals_demo.py`).
-* **Programación Orientada a Objetos:** Definición de clases, atributos y métodos (`hogwarts_characters.py`, `hogwarts_oop_demo.py`).
-* **Desarrollo de Lógica de Juegos:** Implementaciones sencillas de juegos clásicos (`guessing_game.py`, `car_race_game.py`).
-* **Proyectos Temáticos:** Modelado de sistemas usando ejemplos de la cultura popular (`pokemon_battle.py`).
-* **Modularización:** Uso de scripts como módulos independientes (`math_functions_demo.py`).
+---
 
-## 🛠 Entorno de Desarrollo
+## Contents
 
-Para la creación y prueba de estos scripts se utilizó el entorno científico de Python:
+| File | Topic |
+|---|---|
+| `conditionals_demo.py` | `if` / `elif` / `else` |
+| `while_loop_demo.py` | `while` loops |
+| `math_functions_demo.py` | Functions (`int`, modulo) |
+| `hogwarts_oop_demo.py` | Classes, inheritance, polymorphism |
+| `hogwarts_characters.py` | Classes with composition (`Wand`) |
+| `guessing_game.py` | Hangman-style game (OOP + input) |
+| `pokemon_battle.py` | Turn-based battle (types, defend) |
+| `car_race_game.py` | Simple race with **pygame** |
 
-* **Distribución:** [Anaconda](https://www.anaconda.com/) (Gestión de entornos y paquetes).
-* **IDE:** [Spyder](https://www.spyder-ide.org/) (Scientific Python Development Environment).
-* **Lenguaje:** Python 3.x.
+---
 
-## 📂 Cómo ejecutar las prácticas
+## Requirements
 
-1.  Asegúrate de tener instalado **Anaconda** o **Python** en tu equipo.
-2.  Clona este repositorio:
-    ```bash
-    git clone [https://github.com/AkJoss/Python-Object-Oriented-Programming.git](https://github.com/AkJoss/Python-Object-Oriented-Programming.git)
-    ```
-3.  Puedes abrir los archivos directamente en **Spyder** para ejecutarlos por secciones o usar la terminal:
-    ```bash
-    python NombreDelArchivo.py
-    ```
-
-## Car race (`car_race_game.py`)
-
-This script needs **pygame** and a Python version that has pygame wheels
-(tested with **Python 3.13** / Anaconda). **Python 3.14** may fail to install
-pygame until wheels are published.
+- Python **3.10+** recommended  
+  - Tested with **Python 3.13 (Anaconda)**  
+  - **Python 3.14** may fail to install pygame until wheels are available
+- pygame (only for `car_race_game.py`) — see `requirements.txt`
 
 ```bash
-# Option A — Anaconda (if pygame is already installed there)
-python car_race_game.py
-
-# Option B — virtual environment (recommended for Homebrew Python)
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
+```
+
+If you already use Anaconda with pygame installed:
+
+```bash
 python car_race_game.py
 ```
 
-A window opens; the first car past the finish line wins and the name is printed in the terminal.
+---
 
+## How to run
+
+From the repository root:
+
+```bash
+python conditionals_demo.py
+python while_loop_demo.py
+python math_functions_demo.py
+python hogwarts_oop_demo.py
+python hogwarts_characters.py
+python guessing_game.py
+python pokemon_battle.py
+python car_race_game.py
+```
+
+Interactive scripts (`guessing_game.py`, `pokemon_battle.py`) ask for keyboard input.  
+`car_race_game.py` opens a window; the first car past the finish line wins.
+
+### Car race demo
+
+![Car race demo — three cars racing on a white canvas](assets/car-race-demo.png)
+
+---
+
+## Notes
+
+- Comments and identifiers are in English for consistency on GitHub.
+- Each file is independent; there is no shared package layout.
+- Local virtual environments (`.venv/`) are ignored via `.gitignore`.
