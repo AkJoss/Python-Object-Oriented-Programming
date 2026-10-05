@@ -1,4 +1,4 @@
-# Python OOP — Semester 2 Coursework
+# 🐍 Python OOP — Semester 2 Coursework
 
 Coursework from **2nd semester** of **Software Development Engineering** (Ingeniería en Desarrollo de Software) at Universidad Tecmilenio.
 
@@ -8,7 +8,7 @@ These scripts are the programming assignments I delivered for the **Object-Orien
 
 ---
 
-## Contents
+## 📂 Contents
 
 | File | Topic |
 |---|---|
@@ -23,7 +23,7 @@ These scripts are the programming assignments I delivered for the **Object-Orien
 
 ---
 
-## Requirements
+## 🛠 Requirements
 
 - Python **3.10+** recommended  
   - Tested with **Python 3.13 (Anaconda)**  
@@ -44,7 +44,7 @@ python car_race_game.py
 
 ---
 
-## How to run
+## 🚀 How to run
 
 From the repository root:
 
@@ -62,13 +62,13 @@ python car_race_game.py
 Interactive scripts (`guessing_game.py`, `pokemon_battle.py`) ask for keyboard input.  
 `car_race_game.py` opens a window; the first car past the finish line wins.
 
-### Car race demo
+### 🏎 Car race demo
 
 ![Car race demo — three cars racing on a white canvas](assets/car-race-demo.png)
 
 ---
 
-## Notes
+## 📝 Notes
 
 - Comments and identifiers are in English for consistency on GitHub.
 - Each file is independent; there is no shared package layout.
