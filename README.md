@@ -10,7 +10,7 @@ El proyecto incluye diversos scripts que cubren los siguientes temas:
 * **Programación Orientada a Objetos:** Definición de clases, atributos y métodos (`Definiciondeclases.py`, `Estudiantes.py`).
 * **Desarrollo de Lógica de Juegos:** Implementaciones sencillas de juegos clásicos (`Juegoadivinanza.py`, `Juegocarreras.py`).
 * **Proyectos Temáticos:** Modelado de sistemas usando ejemplos de la cultura popular (`Pokemon.py`, `PokemonAvanzado.py`).
-* **Modularización:** Uso de scripts como módulos independientes (`Modulito.py`).
+* **Modularización:** Uso de scripts como módulos independientes (`math_functions_demo.py`).
 
 ## 🛠 Entorno de Desarrollo
 
