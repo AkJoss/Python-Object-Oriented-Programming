@@ -7,7 +7,7 @@ Este repositorio contiene una colección de prácticas y ejercicios desarrollado
 El proyecto incluye diversos scripts que cubren los siguientes temas:
 
 * **Fundamentos de Lógica:** Control de flujo y ciclos (`while_loop_demo.py`, `conditionals_demo.py`).
-* **Programación Orientada a Objetos:** Definición de clases, atributos y métodos (`Definiciondeclases.py`, `Estudiantes.py`).
+* **Programación Orientada a Objetos:** Definición de clases, atributos y métodos (`Definiciondeclases.py`, `hogwarts_oop_demo.py`).
 * **Desarrollo de Lógica de Juegos:** Implementaciones sencillas de juegos clásicos (`Juegoadivinanza.py`, `Juegocarreras.py`).
 * **Proyectos Temáticos:** Modelado de sistemas usando ejemplos de la cultura popular (`Pokemon.py`, `PokemonAvanzado.py`).
 * **Modularización:** Uso de scripts como módulos independientes (`math_functions_demo.py`).
